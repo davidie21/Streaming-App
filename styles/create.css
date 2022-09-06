@@ -1,0 +1,118 @@
+#nav{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    width: 100%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    line-height: 10px;
+    background: url(/images/background.jpg);
+    background-size: cover;
+   
+}
+#avatar__selection{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.avatar__option{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 4px;
+}
+.avatar__option__selected{
+    border: 3px solid #845695;
+}
+#form__containers{
+    background-color: #36393f;
+    width: 700px;
+    height: 395px;
+    position: absolute;
+    top: 30%;
+    left: 24%;
+    transform: translate(-50px,-50px);
+    border-radius: 5px;
+    padding: 28px;
+}
+#form__container__header{
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+    left: 20%;
+    color: #b7babb;
+}
+#form__container__header h1{
+    margin-left: 30%;
+    align-items: center;
+    font-weight: 800;
+    font-size: 2.5rem;
+}
+.link{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.link img{
+    height: 15px;
+    width: 15px;
+    transform: rotate(180deg);
+    margin-left: 20px;
+    align-items: center;
+    justify-content: center;
+}
+#form__container__header a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    margin-bottom: 15px;
+    background-color: #5865f2;
+    padding: 10px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+.form__field__wrapper input{
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 3px;
+    background: none;
+    background-color: rgb(12, 12, 12);
+    padding: 13px;
+    color: #b7babb;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    outline: none;
+    border: none;
+    transition: none;
+}
+
+.btn{
+    text-align: center;
+    background-color: #5865f2;
+    padding: 15px;
+    width: 100%;
+    border: none;
+    font-weight: 700;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.label{
+    font-size: 20px;
+}
+.elements{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

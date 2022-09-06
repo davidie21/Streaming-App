@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles/create.css">
+    <title>Document</title>
+</head>
+<body>
+    <header id="nav">
+        <h1>streaming</h1>
+        <div>
+            <ul class="list">
+                <li>tergxed</li>
+                <li>classes</li>
+            </ul>
+        </div>
+        <div>
+            
+        </div>
+        
+
+    </header>
+
+    <main id="join__container">
+        <div id="form__containers">
+            <div id="form__container__header">
+                <h1>welcome back!</h1>
+                <div class="link">
+                    <a href="join.html">Join Room <img src="images/arrow.png" alt=""></a>
+                    
+                </div>
+                
+            </div>
+
+            <form id="lobby__form">
+                <div class="form__field__wrapper">
+                    <label class="label">Your Name</label>
+                    <input type="text" name="name" autocomplete="off" required placeholder="Enter your name">
+                </div>
+
+                <div class="form__field__wrapper">
+                    <label class="label">Room Name</label>
+                    <input type="text" autocomplete="off"  name="room" required placeholder="Enter room name">
+                </div>
+
+                <div class="form__field__wrapper">
+                    <label class="label">Select Avatar</label>
+                    <div id="avatar__selection">
+                        <img src="images/1.webp" class="avatar__option" >
+                        <img src="images/2.jpg" class="avatar__option">
+                        <img src="images/3.webp" class="avatar__option">
+                        <img src="images/5.webp" class="avatar__option">
+                        <img src="images/6.jpg" class="avatar__option">
+                        <img src="images/7.jpg" class="avatar__option">
+                        <img src="images/8.jpg" class="avatar__option">
+                    </div>
+                </div>
+
+                <div class="form__field__wrapper">
+                    <button class="btn" type="submit">Create</button>
+                </div>
+
+
+            </form>
+        </div>
+    </main>
+
+
+</body>
+<script src="/js/agora-rtm-sdk-1.5.0.js"></script>
+<script src="/js/create.js"></script>
+</html>
